@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    border: 1em solid;
+    border-color: #d9d9d9;
+  }
+  footer {
+    clear:both;
+    background: #d9d9d9;
+  }
+
+  aside {
+    float: right;
+    font-size: 12px;
+  }
+  .important {
+      color: dodgerblue;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d9d9d9;
+  }
+  li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px ;
+  }
+  li :hover {
+    background-color: dodgerblue;
+  }
+  .content-box {
+          height: 35em;
+          width: 55em;
+          padding: 1em;
+          border: 0em ;
+          margin: 0px 0px 0px 200px;
+          border-color: white;
+          font-size: 14px;
+
+  }
+  #border-box {
+          box-sizing: border-box;
+  }
+  header {
+          height: 5em;
+          padding: 4em;
+          margin: 1em;
+          color: white;
+          background-color: dodgerblue;
+        }
